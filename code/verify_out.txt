@@ -1,0 +1,45 @@
+PASS eq (1): advantage = c (m - x*)  4.4e-16
+PASS Stag Hunt (5,0,4,2): c = 3, x* = 2/3
+PASS update (2) is the exponential-weights step  3.5e-11
+PASS Lemma 2: x s = Delta E - KL(pi_t||pi_t+1)  2.6e-11 6.0e-14
+PASS Lemma 2: 0 <= step term <= s^2/8  max ratio 0.999995
+PASS Remark 4: x_{t+1} s = Delta E + KL(pi_t+1||pi_t)  2.6e-11
+PASS Remark 5: K-action identity  9.4e-16
+PASS eq (4) with decay lambda=0.00
+PASS eq (4) with decay lambda=0.07
+PASS Prop 1: log(0.9/(1/3)) = 0.993
+PASS Remark 6: sum x m <= S^2/N on K5  -1.75e-04
+PASS Remark 6: sum x m <= S^2/N on ring4  -1.28e-11
+PASS Remark 6: sum x m <= S^2/N on K33  -7.70e-13
+INFO ring of five: max of sum x m - S^2/N = 0.238 (positive, so Remark 6 does not cover it)
+PASS Prop 2: (5) and (6) against ODE  7.6e-12
+PASS Prop 2: 1.072 and 0.321 at U=10
+PASS Prop 2: decreasing in U
+PASS Prop 3 at x*=0.3: bounds 0.251 and 1.622
+PASS Prop 3: a pair above 2x* spreads (N = 3, 4, 6; others at 1e-6)
+PASS Prop 4: a pair below 2x*-1 never rises (others at 1)
+PASS Prop 4: bound empty at x*=0.55, x0=0.1
+PASS Remark 1: potential; all-H maximiser iff x*<1/2
+PASS Section 5: subsidy on complete graph ~ c N x*^2/2
+PASS Section 5: subsidy on the ring = c x* + (N-2) c (x*-1/2)^+
+PASS rho = 1/(1-2x*): 1.667 and 2.5
+PASS decay 0.05: inferior rest point exists (x*=0.2)  theta=-12.0
+PASS decay 0.05: inferior rest point exists (x*=0.3)  theta=-18.0
+PASS Section 8: total utility = 4 + 6 x1 x2
+PASS Limitation 2: discrete lower-bound factor aU/(e^{aU}-1); 0.95 at aU = 0.1
+PASS Remark 4: one step costs 0.29
+PASS Open question 2: gap of scaled potential = 2/N
+PASS Open question 4: sum <v_i, x_i - q_i> = 0 in Matching Pennies
+PASS result files: harmonic equality
+PASS result files: Euclidean 0.436 against 0.434
+PASS Sections 1 and 8: 1.99 against 7.1, 7.9 and 10.6
+PASS front constant K settles at 1.625 (x*=0.2)
+PASS front constant K settles at 2.948 (x*=0.3)
+PASS front ratio at x*=0.2  1.6667
+PASS front ratio at x*=0.3  2.5001
+PASS Table 3: block sizes 2, 3, 3, 3, 4 at x* = 0.2, 0.3, 0.4, 0.45, 0.48
+PASS Table 3: cost at N = 8 and N = 12 agrees to six digits (x* = 0.2, 0.3)
+PASS Section 1 and Table 6: spacings cheaper than symmetric take 22.8 to 16240
+PASS Table 4: cost paid is below the energy rise of the paid pair
+
+ALL PASS
