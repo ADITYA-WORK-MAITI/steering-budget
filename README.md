@@ -1,6 +1,6 @@
 # The smallest steering budget for exponential-weights learners in a coordination game
 
-Code, figures and LaTeX source for the note of the same title (Aditya Maiti, 22 November 2026).
+Code, figures and LaTeX source for the note of the same title (Aditya Maiti).
 The note is `note/Maiti_Steering_Budget_Note.pdf`.
 
 Setting: agents follow natural policy gradient with exact advantages (exponential weights) in a two-action
